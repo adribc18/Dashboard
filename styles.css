@@ -30,12 +30,12 @@ body {
 .container .left .profpic1 {
   display: flex;
   justify-content: center;
-  background-color: azure;
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 80px;
+  background-image: url(Adri\ 3.png);
 }
 .container .left .tu {
   display: flex;
@@ -78,7 +78,7 @@ body {
 }
 .container .right .herocolumn .foto button {
   background-color: white;
-  margin: 20px 597px -20px 10px;
+  margin: 20px 597px -15px 10px;
   border-radius: 6px;
   border: none;
 }
@@ -86,18 +86,25 @@ body {
   color: white;
 }
 .container .right .herocolumn .tablas {
-  width: 80%;
-  height: 70%;
-  color: white;
-  padding: 20px;
-  margin-top: 20px;
-  margin-left: 90px;
+  width: 90%;
+  height: 80%;
+  background-color: aliceblue;
+  padding: 10px;
+  margin-left: 25px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
+  border-collapse: collapse;
+  text-align: center;
 }
 
 tr, td, th {
-  padding: 20px;
+  padding: 10px 35px;
+  color: #1c1f36;
+}
+
+tr:nth-child(even) {
+  background-color: #5676df;
 }
 
 .maplist {
@@ -124,10 +131,6 @@ tr, td, th {
 }
 .maprows .myrow .rowleft {
   display: flex;
-}
-.maprows .myrow .rowleft .profpic {
-  margin-top: -4px;
-  font-size: 0.7em;
 }
 .maprows .myrow .rowleft .labels {
   display: flex;
